@@ -72,6 +72,9 @@ tb.summary = "Novem Example Index performance by geography"
 # share it with the world
 tb.shared += 'public'
 
+# share it with ai
+tb.shared += 'chat'
+
 # let's print our url
 print(tb.url) # https://novem.no/p/NJy4w
 

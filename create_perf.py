@@ -30,6 +30,9 @@ contribution to the aggregate NEI.
 # share it with the world
 plt.shared += 'public'
 
+# share it with ai
+plt.shared += 'chat'
+
 # let's print our url
 print(plt.url) # https://novem.no/p/NJy4w
 

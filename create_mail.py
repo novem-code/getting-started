@@ -86,6 +86,9 @@ mail.summary = "A daily performance demo mail for the Novem Example Index"
 # share the mail with the public
 mail.shared = 'public'
 
+# share it with ai
+mail.shared += 'chat'
+
 print(mail.url)
 
 #mail.test()  # use to send a test to yourself
