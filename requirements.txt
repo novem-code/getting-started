@@ -70,7 +70,7 @@ soupsieve==2.5
 stack-data==0.6.3
 tabulate==0.9.0
 tomlkit==0.12.3
-tornado==6.4
+tornado==6.4.1
 traitlets==5.14.2
 trove-classifiers==2024.1.8
 typing_extensions==4.11.0
