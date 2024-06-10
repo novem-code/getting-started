@@ -62,7 +62,7 @@ python-dateutil==2.8.2
 pytz==2023.3.post1
 pyzmq==26.0.0
 rapidfuzz==3.6.1
-requests==2.31.0
+requests==2.32.2
 requests-toolbelt==1.0.0
 shellingham==1.5.4
 six==1.16.0
