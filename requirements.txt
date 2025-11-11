@@ -1,11 +1,11 @@
-certifi==2025.8.3
-charset-normalizer==3.4.3
+certifi==2025.10.5
+charset-normalizer==3.4.4
 colorama==0.4.6
-idna==3.10
+idna==3.11
 novem==0.5.4
-numpy==2.3.3
+numpy==2.3.4
 packaging==24.2
-pandas==2.3.2
+pandas==2.3.3
 pyreadline3==3.5.4
 python-dateutil==2.9.0.post0
 pytz==2025.2
