@@ -78,10 +78,10 @@ tb.name = "Novem Example Index - Top & Bottom Contributors\n"
 tb.summary = "Example table of top 10 and bottom 10 contributors to the novem example index\n"
 
 # share it with the world
-tb.shared += 'public'
+# tb.shared += 'public'
 
 # share it with ai
-tb.shared += 'chat'
+# tb.shared += 'chat'
 
 # let's print our url
 print(tb.url) # https://novem.no/p/NJy4w

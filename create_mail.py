@@ -84,10 +84,10 @@ mail.name = "Novem Example Index - Daily Performance Summary"
 mail.summary = "A daily performance demo mail for the Novem Example Index"
 
 # share the mail with the public
-mail.shared = 'public'
+# mail.shared = 'public'
 
 # share it with ai
-mail.shared += 'chat'
+# mail.shared += 'chat'
 
 print(mail.url)
 
