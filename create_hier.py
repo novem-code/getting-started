@@ -64,7 +64,7 @@ and so on. The world performance is identical to the aggreaget performance of th
 Example Index.
 
 Data from nasdaq and yahoo finance, calculations by novem, all numbers as of 10th of
-November 2022."""
+November 2025."""
 
 # summary for listings
 tb.summary = "Novem Example Index performance by geography"

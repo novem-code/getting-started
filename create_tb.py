@@ -65,7 +65,7 @@ tb.cell.text   = '0 : b'             # row 0, all columns, bold text
 
 # add a caption to the table
 tb.caption = """The above table shows the top 10 and bottom 10 contributors 
-to the Novem Example Index performance on the 10th of November 2022.
+to the Novem Example Index performance on the 10th of November 2025.
 
 The return numbers are the individual stocks DTD return whereas the contribution
 number is its individual contribution to the overall index expressen in basis points, 

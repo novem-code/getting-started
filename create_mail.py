@@ -21,7 +21,7 @@ on the day detracting 20bps from the overall index performance.
 
 
 Overall the 4th quarter feels better with November continuing the trend of 
-clawing back some of the underperformance so far in 2022.
+clawing back some of the underperformance so far in 2025.
 """
 ))
 
@@ -77,7 +77,7 @@ mail.render()
 mail.to = "me"
 
 # and our subject
-mail.subject = "Daily Performance Summary for the 10th of November 2022"
+mail.subject = "Daily Performance Summary for the 10th of November 2025"
 
 mail.name = "Novem Example Index - Daily Performance Summary"
 
