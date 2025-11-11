@@ -2,7 +2,7 @@ import pandas as pd
 from novem import Plot
 
 # let's grab some sample data
-df = pd.read_csv('https://data.novem.no/v1/examples/plot/nei_rgn_perf.csv', index_col=0)
+df = pd.read_csv('https://data.novem.io/v1/examples/plot/nei_rgn_perf.csv', index_col=0)
 
 plt = Plot('nei_rgn_perf', type='line')
 
@@ -34,7 +34,7 @@ contribution to the aggregate NEI.
 # plt.shared += 'chat'
 
 # let's print our url
-print(plt.url) # https://novem.no/p/NJy4w
+print(plt.url)
 
 with open(__file__,'r') as f:
   ctnt = f.read().replace('````','```') # turtles

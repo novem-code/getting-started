@@ -4,7 +4,7 @@ from novem.colors import StaticColor as SC, DynamicColor as DC
 from novem.table import Selector as S
 
 # grab our example numbers from novem data
-df = pd.read_csv('https://data.novem.no/v1/examples/plot/nei_rgn_tb.csv', index_col=0)
+df = pd.read_csv('https://data.novem.io/v1/examples/plot/nei_rgn_tb.csv', index_col=0)
 
 # let's convert our Contribution to bps, Basis points)
 df['Contribution'] *= 10000
@@ -84,7 +84,7 @@ tb.summary = "Example table of top 10 and bottom 10 contributors to the novem ex
 # tb.shared += 'chat'
 
 # let's print our url
-print(tb.url) # https://novem.no/p/NJy4w
+print(tb.url)
 
 tb.type = 'mtable'
 
@@ -98,9 +98,9 @@ with open(__file__,'r') as f:
 This table is an example of how you can highlight top and bottom performers 
 for a fictive equity index or portfolio. The code with comments is available below.
 
-Curious about the data side? [Check out how we created the sample data.](https://novem.no/blog/creating-the-novem-example-index/)
+Curious about the data side? [Check out how we created the sample data.](https://novem.io/blog/creating-the-novem-example-index/)
 
-Want to learn more about novem and pandas? [We have an article for that.](https://novem.no/blog/novem-pandas/)
+Want to learn more about novem and pandas? [We have an article for that.](https://novem.io/blog/novem-pandas/)
 
 
 ````

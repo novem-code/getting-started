@@ -4,7 +4,7 @@ from novem.colors import StaticColor as SC, DynamicColor as DC, USEDATA as _
 from novem.table import Selector as S
 
 # let's grab some sample data
-df = pd.read_csv('https://data.novem.no/v1/examples/plot/nei_rgn_hier.csv', index_col=0)
+df = pd.read_csv('https://data.novem.io/v1/examples/plot/nei_rgn_hier.csv', index_col=0)
 
 tb = Plot('nei_rgn_hier', type="table")
 
@@ -76,7 +76,7 @@ tb.summary = "Novem Example Index performance by geography"
 # tb.shared += 'chat'
 
 # let's print our url
-print(tb.url) # https://novem.no/p/NJy4w
+print(tb.url)
 
 # Set the render type
 tb.type = 'mtable'
